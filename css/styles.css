@@ -1,0 +1,171 @@
+body{
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: 'Montserrat' ,sans-serif   ;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h3{
+    font-family:'Montserrat';
+    font-weight: 900;
+
+  
+    
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: 700; 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color:#8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15% 7% ;
+}
+
+
+#title{
+    background-color: #FF4C68;
+    color:#fff;
+   
+
+
+}
+
+.navbar{
+    padding:0 0  4.5rem ;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:'Montserrat';
+    font-size:1.1rem ;
+    font-weight: 400;
+}
+
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+.iph{
+    position:relative;
+}
+
+.title-image{
+ width:60%;
+    transform: rotate(25deg);
+   position: absolute;
+   right:30%;
+   
+}
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+   position: relative;
+  
+
+
+  
+}
+.features-box{
+    text-align:center;
+    padding:6%;
+    
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#FF4C68;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color:#ef8172;
+    color:#fff;
+   
+}
+.testimonial-image{
+    width:12%;
+    border-radius: 50%;
+    margin:20px;
+}
+.carousel-item{
+    padding:6% 15% ;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align:center;
+   
+    padding-bottom: 4% ;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+    
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.bt{
+    margin-top:40px;
+}
+.pricing-col{
+    padding:3% 2%;
+}
+
+.cta{
+    background-color: #FF4C68;
+    text-align: center;
+    
+   
+    
+    padding:5% 30%;
+   
+}
+.cta h3{
+    font-family: 'Montserrat';
+    color:#fff;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.btn1{
+    border-radius:4px ;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+.title-image{
+    position:static;
+    transform: rotate(0);
+}
+}
+#footer{
+    text-align:center;
+    padding:3% 15%;
+}
+.footer p{
+    margin:20px;
+}
+.footer i{
+    margin-right: 20px;
+}
